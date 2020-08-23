@@ -1,0 +1,115 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+	-moz-box-sizing: border-box; /* Firexfox */
+	-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+	box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	font-family: 'Lato';
+	background-color: #dedede;
+	color: #000000;
+	line-height: 1.7;
+	background: url('../images/notebook.png');
+}
+
+hr {
+	color: #dedede;
+}
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container {
+	width: 950px;
+	margin: auto;
+}
+
+#main {
+	background-color: white;
+	margin-top: 20px;
+	padding: 20px;
+	width: 600px;
+	float: left;
+}
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+#header h1,
+h4 {
+	margin: 0;
+}
+
+#header h4 {
+	font-size: 11px;
+}
+
+.tile {
+	margin-bottom: 100px;
+}
+
+.comment {
+	color: #999999;
+}
+
+.orange {
+	color: #ea4f33;
+}
+/*----------------------------------------------------------------------------- 
+04=SIDEBAR  
+-----------------------------------------------------------------------------*/
+#sidebar {
+	width: 340px;
+	background-color: #fff;
+	float: right;
+	padding: 35;
+	border-left: 3px solid #bbb;
+	border-bottom: 3px solid #bbb;
+	padding: 20px 20px 70px;
+	margin-top: 20px;
+}
+
+#sidebar img {
+	border-radius: 500px;
+}
+
+#social-links {
+	margin-bottom: 50px;
+}
+
+#social-links li a {
+	text-decoration-line: none;
+}
+
+blockquote {
+	margin: 0;
+	border-left: 3px solid #ccc;
+	font-style: italic;
+}
+
+.text {
+	margin-left: 10px;
+}
+
+/*----------------------------------------------------------------------------- 
+05=FOOTER  
+-----------------------------------------------------------------------------*/
+#footer {
+	font-weight: bold;
+	margin: 20px 0 15px 0;
+}
